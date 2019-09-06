@@ -92,17 +92,20 @@ header nav a {
     text-decoration: none;
   }
 
-  @keyframes color-change {
-        from {color: black;}
-          to {color: pink;}
-}
-      
-header nav a:hover {
-        animation-duration: 4s;
-        animation-name: color-change;
-        background: white;
-        color: pink;
-}
+@keyframes color-change {
+    from {background-color: white;}
+      to {background-color: pink;}
+  }
+  
+header nav a:hover {
+    animation-duration: 2s;
+    animation-name: color-change;
+    background: white;
+    border: 1px solid black;
+    text-transform: uppercase;  
+  }
+  
+
 
 .header-photo {
     margin-top: 3%;

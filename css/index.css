@@ -71,6 +71,30 @@ p {
     margin: 0 auto;
 }
 
+/******** header ********/
+
+header {
+    display: flex;
+    margin-top: 1%;
+}
+header nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 691px;
+    vertical-align: top;
+    margin-top: 35px;
+  }
+
+header nav a {
+    margin-right: 65px;
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+  }
+.header-photo {
+    margin-top: 4%;
+    margin-bottom: 3%;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -111,7 +135,36 @@ p {
     align-items: center;
     justify-content: center;
 }
-
+.middle-content .boxes .box:first-child{
+    background: teal;
+}
+.middle-content .boxes .box:nth-child(2){
+    background: gold;
+}
+.middle-content .boxes .box:nth-child(3){
+    background: cadetblue;
+}
+.middle-content .boxes .box:nth-child(4){
+    background: coral;
+}
+.middle-content .boxes .box:nth-child(5){
+    background: crimson;
+}
+.middle-content .boxes .box:nth-child(6){
+    background:forestgreen;
+}
+.middle-content .boxes .box:nth-child(7){
+    background: darkorchid;
+}
+.middle-content .boxes .box:nth-child(8){
+    background: hotpink;
+}
+.middle-content .boxes .box:nth-child(9){
+    background: indigo;
+}
+.middle-content .boxes .box:nth-child(10){
+    background: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
